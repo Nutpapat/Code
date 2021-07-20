@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Meteorite Landings</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/grayscale.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Meteorite Landings</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#fall">Fall</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#map">Map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#year">Year</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#mass">Mass</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#class">Class</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#member">Member</a>
+            </li>
+            <li class="nav-item">
+              <form method="get" action="/search">
+                <input type="search" name="search" placeholder="Search">
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading" style="padding-top:0.5em;">Meteorite Landings Analysis</h1>
+              <p class="intro-text">The Meteoritical Society collects data on meteorites that have fallen to Earth from outer space. This dataset includes the location, mass, composition, and fall year for over 45,000 meteorites that have struck our planet.</p>
+              <a href="#fall" class="btn btn-circle js-scroll-trigger">
+                  <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Search pop up -->
+
+
+    <!-- Fall -->
+    <section id="fall" class="content-section text-center" style="padding-top:1em; padding-bottom:0; height:100% auto; min-height: 100%;">
+      <div class="container">
+        <div class="col-lg-9 mx-auto">
+          <object data="../static/img/fall.svg" type="image/svg+xml">
+            <img src="../static/img/fall.svg" alt="Fall Chart">
+          </object>
+        </div>
+        <div class="col-lg-12 mx-auto">
+          <p>In the graph, the factor that made we found the meteorite's flasks is meteorite's mass and atmosphere. If the meteorites have enough mass, it can penetrate from the atmosphere to Earth surface and explode as many meteorite's flasks in an area. In the case of the meteorites' mass that not enough to penetrate in an atmosphere, It will burn by friction force in the atmosphere before it falls to the surface.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section id="map" class="content-section text-center" style="height: 95%; width: 100%;">
+    </section>
+
+    <section class="content-section text-center" style="padding-top:3em; padding-bottom:0; width:100% auto; background-color: #000;">
+      <a href="/fail" target="_blank">
+        <p style="color: #fff;">Scatter maps of Meteorites seen falling</p>
+        <img src="../static/img/fail_map.jpg" alt="Fail Maps" style="max-width: 100%;">
+      </a>
+    </section>
+
+    <section class="content-section text-center" style="padding-top:3em; padding-bottom:3em; width:100% auto; background-color: #fff;">
+      <a href="/found" target="_blank">
+        <p style="color: #000;">Scatter maps of Meteorites seen falling</p>
+        <img src="../static/img/found_map.jpg" alt="Found Maps" style="max-width: 100%;">
+      </a>
+    </section>
+
+    <!-- Year -->
+    <section id="year" class="content-section text-center" style="padding-top:1em; padding-bottom:0; height:100% auto; min-height: 100%; background-color:#fff;">
+      <div class="container">
+        <div class="col-lg-9 mx-auto">
+          <object data="../static/img/years.svg" type="image/svg+xml">
+            <img src="../static/img/years.svg" alt="Years Chart">
+          </object>
+        </div>
+        <div class="col-lg-12 mx-auto">
+          <p style="color:#000;">In the graph, we can assume in two cases. The technology advancement and the geological survey. In the technology case, by an advancement of technology can make scientists found many meteorites in our Earth in the past to present, using a telescope, the power of magnetism and age of meteorites from biological verification. For unknown case, is from a geological survey by biological verification or chemical verification with the meteorites in the layer and can't find out the age of it, this process is similar to fossil verification or layer verification.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mass -->
+    <section id="mass" class="content-section text-center" style="padding-top:1em; padding-bottom:0; height:100% auto; min-height: 100%;">
+      <div class="container">
+        <div class="col-lg-9 mx-auto">
+          <object data="../static/img/mass.svg" type="image/svg+xml">
+            <img src="../static/img/mass.svg" alt="Mass Chart">
+          </object>
+        </div>
+        <div class="col-lg-12 mx-auto">
+          <p>In the graph, the factor that effects with this graph is magnitude/radius of meteorite impact and element of the meteorite. We also knew the meteorites in our Earth is only flasks from the big one, scientists considered the mass of meteorites from their biological by analyzed type and considered the impact magnitude with the type of meteorite for calculated the real mass of it. In some case, some meteorites have no impact magnitude and almost absolute burn by friction force in the atmosphere. So, that made scientists can't consider the mass of it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Class -->
+    <section id="class" class="content-section text-center" style="padding-top:1em; padding-bottom:0; height:100% auto; min-height: 100%; background-color:#fff;">
+      <div class="container">
+        <div class="col-lg-9 mx-auto">
+          <object data="../static/img/class.svg" type="image/svg+xml">
+            <img src="../static/img/class.svg" alt="Class Chart">
+          </object>
+        </div>
+        <div class="col-lg-12 mx-auto">
+          <p style="color:#000;">In the graph, The ultimate goal of meteorite classification is to group all meteorite specimens that share a common origin on a single, identifiable parent body. This could be a planet, asteroid, Moon, or other current Solar System object, or one that existed some time in the past (e.g. a shattered asteroid).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Member -->
+    <section id="member" class="content-section text-center" style="padding-top:5%; padding-bottom:5%;">
+      <div class="about__section" style="background-color:#f5f5f5">
+        <a href="javascript:void(0);" title="Dew">
+          <div class="about__slot">
+            <div class="headshot" style="background-image:url('../static/img/mb_01.jpg');"></div>
+            <div class="about__info">
+              <h4 class="name">Passawit<br>Riewthong</h4>
+              <h5 class="title">60070073</h5>
+            </div>
+          </div>
+        </a>
+
+        <a href="javascript:void(0);" title="Yaya">
+          <div class="about__slot">
+            <div class="headshot" style="background-image:url('../static/img/mb_02.jpg');"></div>
+            <div class="about__info">
+              <h4 class="name">Mareena<br>Nuramun</h4>
+              <h5 class="title">60070076</h5>
+            </div>
+          </div>
+        </a>
+
+        <a href="javascript:void(0);" title="Benning">
+          <div class="about__slot">
+            <div class="headshot" style="background-image:url('../static/img/mb_03.jpg');"></div>
+            <div class="about__info">
+              <h4 class="name">Sedthawuth<br>Maisonti</h4>
+              <h5 class="title">60070109</h5>
+            </div>
+          </div>
+        </a>
+
+        <a href="javascript:void(0);" title="Max">
+          <div class="about__slot">
+            <div class="headshot"  style="background-image:url('../static/img/mb_04.jpg');"></div>
+            <div class="about__info">
+              <h4 class="name">Thitikorn<br>Padungwatsawat</h4>
+              <h5 class="title">60070018</h5>
+            </div>
+          </div>
+        </a>
+
+        <a href="javascript:void(0);" title="Owen">
+          <div class="about__slot">
+            <div class="headshot" style="background-image:url('../static/img/mb_05.jpg');"></div>
+            <div class="about__info">
+              <h4 class="name">Suthee<br>Pilamart</h4>
+              <h5 class="title">60070105</h5>
+            </div>
+          </div>
+        </a>   
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="fond text-center" style="background-color:#000">
+          <a class="style_prevu_kit" style="background-image:url('../static/img/fa_01.png');" href="https://www.python.org" target="_blank"></a>
+          <a class="style_prevu_kit" style="background-image:url('../static/img/fa_02.png');" href="https://github.com/dekdew/Meteorite-Landings-Analysis" target="_blank"></a>
+          <a class="style_prevu_kit" style="background-image:url('../static/img/fa_03.png');" href="https://startbootstrap.com/template-overviews/grayscale/" target="_blank"></a>
+          <a class="style_prevu_kit" style="background-image:url('../static/img/fa_04.png');" href="https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh" target="_blank"></a>
+          <a class="style_prevu_kit" style="background-image:url('../static/img/fa_05.png');" href="https://developers.google.com/maps/" target="_blank"></a>
+        </div>
+
+      <div class="container text-center">
+        <p>&copy; Meteorite Landings 2017</p>
+      </div>
+    </footer>
+
+  </body>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="../static/js/grayscale.min.js"></script>
+
+  <!-- Google Maps -->
+  <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="{{ url_for('static', filename='heatmap.js') }}"></script>
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0BqvqdLQO9o7yiqZ3aapKIlPLacqr6Ug&libraries=visualization&callback=initMap">
+  </script>
+
+</html>

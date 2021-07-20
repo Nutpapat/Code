@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Athiti');
+/*font-family: 'Athiti', sans-serif;*/
+@font-face{
+    font-family: sukum-thin;
+    src: url(font/sukhumvitset-thin-webfont.ttf)
+}
+@font-face{
+    font-family: sukum-bold;
+    src: url(font/sukhumvitset-bold-webfont.ttf)
+}
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    padding: 1vw;
+    top: 0;
+    left: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3vw;
+    color: #fff;    
+    background: #15194b;
+    text-align: center;
+
+}
+.project-des{
+
+    font-family: sukum-thin;
+    text-align: justify;
+    font-size: 2vw;
+    color: #fff;
+}
+.chart{
+    margin-left: 5%;
+    position: relative;
+    height: 100%;
+    width: auto;
+    overflow-x: hidden;
+}
+.graphpy{
+    min-width: 40vw;
+    float: left;
+}
+figcaption{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3vw;
+    color: #fff;    
+}
+.capth{
+    font-family: sukum-thin;
+    font-size: 3vw;
+    color: #fff;  
+}
+.reff{
+    text-align: justify;
+    font-family: sukum-thin;
+    font-size: 1vw;
+    color: #fff;
+}
+.chart-pic{
+    border: 5px solid #505050;
+    margin-right: 2vw;
+    height: 28vw;
+    width: auto;
+}
+#head-parallax{
+    /* The image used */
+    background-image: url("image/1.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+/*.head-word{
+    padding: 0;
+    margin-top: 15%;
+    margin-left: 20%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 8vw;
+    color: #fff;
+    text-align: left;
+
+}*/
+.con-con{
+    margin-top: 10%;
+}
+.conception-spe{
+    padding: 0;
+    margin-top: -5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 6vw;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255, 49, 49, 0.8)
+}
+.conception{
+    padding: 0;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 6vw;
+    color: #fff;
+    text-align: center;
+}
+.conception-title{
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 6vw;
+    color: #fff;
+    text-align: center;
+}
+.conception-th{
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: sukum-bold;    
+    font-size: 4vw;
+    color: #fff;
+    text-align: center;
+}
+.conceptsec-th{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: sukum-thin;    
+    font-size: 2vw;
+    color: #fff;
+    text-align: justify;    
+}
+.conceptsec{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid white;
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 4vw;
+    color: #fff;
+    text-align: center;    
+}
+.desbox{
+    padding: 5vw;
+    background: #000;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 5vw;
+    text-align: center;    
+}
+.chartbox{
+    padding: 2vw;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+}
+.desbox-gr{
+    background: #000;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;    
+}
+.chart img{
+    font-family: 'Barlow Condensed', sans-serif;    
+    font-size: 2vw;    
+    min-height: 4vw;
+}
+#second-parallax{
+    /* The image used */
+    background-image: url("image/2.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#third-parallax{
+    /* The image used */
+    background-image: url("image/4.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+.big-chart{
+    padding: 1vw;
+    height: 42vw;
+    width: auto;
+}
+#fourth-parallax{
+    /* The image used */
+    background-image: url("image/5.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#fifth-parallax{
+    /* The image used */
+    background-image: url("image/3.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#sixth-parallax{
+    /* The image used */
+    background-image: url("image/6.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#seventh-parallax{
+    /* The image used */
+    background-image: url("image/7.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#eighth-parallax{
+    /* The image used */
+    background-image: url("image/8.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#nineth-parallax{
+    /* The image used */
+    background-image: url("image/9.jpg");
+    
+        /* Set a specific height */
+        min-height: 50vw; 
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+}
+#tenth-parallax{
+     /* The image used */
+     background-image: url("image/4.jpg");
+     
+         /* Set a specific height */
+         min-height: 50vw; 
+     
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         overflow-x: hidden;
+}
+.member ul{
+    margin-left: 10%; 
+    align-items: center;
+    list-style-type: none;
+}
+.member li{
+    margin-top: 4%;
+    float: left;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.mem{
+    border: 1px solid #dddddd;
+    height: 25vw;
+}
+.member li p{
+    text-align: center;
+}
+.memdef{
+    background-color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    text-decoration: none;    
+}
